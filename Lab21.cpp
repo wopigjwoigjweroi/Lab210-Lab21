@@ -31,4 +31,44 @@ class Goat {
         }
 
         Goat(int age, string color, string name) : age(age), name(name), color(color) {}
+
+       int getAge() {
+
+            return age; 
+        }
+
+        string getName() {
+
+            return name; 
+        }
+
+        string getColor() {
+
+            return color; 
+        }
+}; 
+
+
+
+    class DoublyLinkedList {
+
+        private: 
+
+        struct Node {
+
+        Goat data;
+
+        Node* prev;
+
+        Node* next; 
+
+        Node(Goat val, Node* p = nullptr, Node* n = nullptr)  {}
+
+};
+            Node* head; 
+
+            Node* tail; 
+
+        public:
+
 }; 
