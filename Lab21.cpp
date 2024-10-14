@@ -60,7 +60,7 @@ class Goat {
 
         Node* next; 
 
-        Node(Goat val, Node* p = nullptr, Node* n = nullptr) : data(d), prev(p), next(n) {}
+        Node(Goat val, Node* p = nullptr, Node* n = nullptr) : data(val), prev(p), next(n) {}
 
 };
             Node* head; 
